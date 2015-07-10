@@ -8,7 +8,28 @@
 
 #import "CardView.h"
 
-@implementation CardView
+#import "CircleView.h"
 
+@interface CardView()
+@property (nonatomic, strong) CircleView *circleView1;
+@property (nonatomic, strong) CircleView *circleView2;
+
+- (void)deoo;
+@end
+
+@implementation CardView
+-(void)awakeFromNib{
+    
+}
+
+-(void)prepareForInterfaceBuilder
+{
+    
+}
+
+- (void) config
+{
+    
+}
 
 @end
