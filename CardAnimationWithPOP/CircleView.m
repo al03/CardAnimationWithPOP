@@ -9,7 +9,7 @@
 #import "CircleView.h"
 
 #import <POP.h>
-
+#import <QuartzCore/QuartzCore.h>
 @interface CircleView()
 @property (nonatomic, strong) CAShapeLayer *circleLayer;
 @property (nonatomic, strong) UILabel *label;
