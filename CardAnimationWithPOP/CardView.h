@@ -16,4 +16,5 @@ IB_DESIGNABLE
 @property(nonatomic)IBInspectable UIColor * tapColor2;
 @property(nonatomic)IBInspectable CGSize circleSize;
 @property(nonatomic)IBInspectable CGSize shadowSize;
+- (void) config;
 @end
